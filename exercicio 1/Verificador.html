@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Verificador de idade</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+  <header>
+    <h1>VERIFICADOR DE IDADE</h1>
+  </header>
+  <section>
+    <div>
+      <p>Digite seu ano de nascimento: <input type="number" id="ano_nascimento"></p>
+      <p for="sexo">Sexo:
+        <label for="fem">Feminino</label>
+        <input type="radio" name="radsex" id="fem" checked>
+        <label for="mas">Masculino</label>
+        <input type="radio" name="radsex" id="mas">
+      </p>
+
+      <button onclick="verificar()">Verificar</button>
+    </div>
+
+    <div id="resultado">
+      <p>Clique em verificar para calcular sua idade.</p>
+    </div>
+
+  </section>
+  <footer class="rodapé">
+    <p>©Isac_Vitor_13</p>
+  </footer>
+  <script src="Verificador.js"></script>
+</body>
+
+</html>

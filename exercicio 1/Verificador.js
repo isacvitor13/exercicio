@@ -22,7 +22,7 @@ function verificar() {
       } else if (idade_pessoa < 18) {
         img.setAttribute('src', '/verificador de idade/imagens/menina.jpg')
       } else if (idade_pessoa >= 18 && idade_pessoa < 65) {
-        img.setAttribute('src', '/verificador de idade/imagens/mulher.jpg')
+        img.setAttribute('src', './imagens/mulher.jpg')
       } else if (idade_pessoa >= 65) {
         img.setAttribute('src', '/verificador de idade/imagens/idosa.jpg')
       }

@@ -18,24 +18,24 @@ function verificar() {
     if (sexo[0].checked) {
       genero = 'Mulher'
       if (idade_pessoa > 0 && idade_pessoa <= 10) {
-        img.setAttribute('src', '/verificador de idade/imagens/criançamenina.jpg')
+        img.setAttribute('src', './imagens/criançamenina.jpg')
       } else if (idade_pessoa < 18) {
-        img.setAttribute('src', '/verificador de idade/imagens/menina.jpg')
+        img.setAttribute('src', './imagens/menina.jpg')
       } else if (idade_pessoa >= 18 && idade_pessoa < 65) {
         img.setAttribute('src', './imagens/mulher.jpg')
       } else if (idade_pessoa >= 65) {
-        img.setAttribute('src', '/verificador de idade/imagens/idosa.jpg')
+        img.setAttribute('src', './imagens/idosa.jpg')
       }
     } else if (sexo[1].checked) {
       genero = 'Homem'
       if (idade_pessoa > 0 && idade_pessoa <= 10) {
-        img.setAttribute('src', '/verificador de idade/imagens/criançamenino.jpg')
+        img.setAttribute('src', './imagens/criançamenino.jpg')
       } else if (idade_pessoa < 18) {
-        img.setAttribute('src', '/verificador de idade/imagens/menino.jpg')
+        img.setAttribute('src', './imagens/menino.jpg')
       } else if (idade_pessoa >= 18 && idade_pessoa < 65) {
-        img.setAttribute('src', '/verificador de idade/imagens/homem.jpg')
+        img.setAttribute('src', './imagens/homem.jpg')
       } else if (idade_pessoa >= 65) {
-        img.setAttribute('src', '/verificador de idade/imagens/idoso.jpg')
+        img.setAttribute('src', './imagens/idoso.jpg')
       }
     }
     resultado.style.textAlign = 'center'
